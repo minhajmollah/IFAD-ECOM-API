@@ -1,0 +1,84 @@
+
+API Listing IFAD
+*******************************************************
+- How TO Buy
+- B2B Business Form
+
+- Login -- Done
+  {{BASE_URL}}/login
+
+- Signup  -- Done
+  {{BASE_URL}}/register
+
+- Global Search: Only Product
+  {{BASE_URL}}/inventories/search?keyword=Chips Pillow
+
+- Product Category Lists with Image
+  {{BASE_URL}}/categories
+
+- Slider (AZAD)
+
+- Combo Pack: Combo PRoduct with Details
+  {{BASE_URL}}/combos?order_column=id&order_by=ASC&limit=20
+
+- Discount Product
+  {{BASE_URL}}/inventories/discounted?order_column=id&order_by=DESC&limit=15
+
+- Products By Category Name with ORDER and show all category section in homepage
+  {{BASE_URL}}/inventories?order_column=id&order_by=ASC&limit=20
+  {{BASE_URL}}/inventories/categories/4?order_column=id&order_by=ASC&limit=20
+
+- Brand Logos (AZAD)
+- Feature List (AZAD)
+
+- About Us (AZAD)
+  -- Company Review (AZAD)
+  -- Board of Directors  (AZAD)
+- Terms & Condition (AZAD)
+- Privacy Policy (AZAD)
+- Delivery (AZAD)
+
+- Contact Page:
+   -- Contact Data (AZAD)
+   -- Contact Form to EMAIL use ENV variable
+      {{BASE_URL}}/send-contact-form
+
+- Single Product
+  -- Product Review
+     {{BASE_URL}}/reviews
+
+  -- Related Product
+     {{BASE_URL}}/inventories/categories/4?order_column=id&order_by=ASC&limit=20
+
+  -- Wishlist
+     {{BASE_URL}}/wishlist
+
+  -- Customer Review
+  -- Add to Cart if same just update quantity (MARUF)
+  -- Buy Now : Direct Checkout
+  -- Cart List (MARUF)
+  -- Checkout
+     --- Shipping Address
+     --- Billing Address
+     --- Cash on Delivery
+     --- Online Payment
+          --- SSL Commerze
+
+MY Account
+   -- Customer Info
+      {{BASE_URL}}/customers/1/show
+
+   -- Wishlist
+      {{BASE_URL}}/wishlist
+
+   -- My Order
+      {{BASE_URL}}/orders
+
+   -- Change Password
+      {{BASE_URL}}/change-password
+
+   -- Address
+      {{BASE_URL}}/addresses/1/default-shipping
+      {{BASE_URL}}/addresses/1/default-billing
+
+
